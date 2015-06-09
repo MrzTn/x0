@@ -17,5 +17,14 @@ namespace TestProject1
                 Form1.Game obj = new Form1.Game();
                 obj.refresh(form);            
         }
+
+        [TestMethod]
+        public void TestMethod2()
+        {
+            Form1 form = new Form1();
+            Form1.Game obj = new Form1.Game();
+            for (int i = 1; i < 10; i++ )
+                obj.game(i,form);
+        }
     }
 }

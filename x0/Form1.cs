@@ -42,34 +42,36 @@ namespace WindowsFormsApplication1
                 num_game += 1;
                 f.label2.Text = num_game + " игра";
             }
+
+            public string game(int j, Form1 f)
+            {
+                string fakeT;
+                if (i % 2 == 1)
+                {
+                    t = "X";
+                    fakeT = "O";
+                }
+                else
+                {
+                    t = "O";
+                    fakeT = "X";
+                }
+                fakeT = "Ходит " + fakeT;
+                arr[j] = t;
+                i += 1;
+
+                f.label1.Text = fakeT;
+                return t;
+            }
         }
 
         public Form1()
         {
             InitializeComponent();            
         }
+
+       
 /*
-        public string Game(int j)
-        {
-            string fakeT;
-            if (i % 2 == 1)
-            {
-                t = "X";
-                fakeT = "O";
-            }
-            else 
-            { 
-                t = "O";
-                fakeT = "X";
-            }
-            fakeT = "Ходит " + fakeT;
-            arr[j] = t;
-            i += 1;
-
-            label1.Text = fakeT;                 
-            return t;
-        }
-
         public void who_vin()
         {            
             if ((arr[1] == "X" & arr[2] == "X" & arr[3] == "X") | (arr[1] == "X" & arr[5] == "X" & arr[9] == "X") | (arr[1] == "X" & arr[4] == "X" & arr[7] == "X") | (arr[2] == "X" & arr[5] == "X" & arr[8] == "X") | (arr[3] == "X" & arr[6] == "X" & arr[9] == "X") | (arr[3] == "X" & arr[5] == "X" & arr[7] == "X") | (arr[4] == "X" & arr[5] == "X" & arr[6] == "X") | (arr[7] == "X" & arr[8] == "X" & arr[9] == "X"))
@@ -115,94 +117,93 @@ namespace WindowsFormsApplication1
             i = 1;
             num_game += 1;
             label2.Text = num_game + " игра";
-        }
+        }*/
 
         private void button10_Click(object sender, EventArgs e)
         {
-            refresch();
+            game.refresh(this);
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             if (button1.Text == "X" | button1.Text == "O")
             {
-                MessageBox.Show(" Нельзя! :нуну:");
+                MessageBox.Show(" Нельзя!");
             }
-            else { button1.Text = Game(1); who_vin(); }
+            else { button1.Text = game.game(1,this); /*who_vin();*/ }
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             if (button2.Text == "X" | button2.Text == "O")
             {
-                MessageBox.Show(" Нельзя! :нуну:");
+                MessageBox.Show(" Нельзя!");
             }
-            else { button2.Text = Game(2); who_vin(); }
+            else { button2.Text = game.game(2, this); /*who_vin();*/ }
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             if (button3.Text == "X" | button3.Text == "O")
             {
-                MessageBox.Show(" Нельзя! :нуну:");
+                MessageBox.Show(" Нельзя!");
             }
-            else { button3.Text = Game(3); who_vin(); }
+            else { button3.Text = game.game(3, this); /*who_vin();*/ }
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
             if (button4.Text == "X" | button4.Text == "O")
             {
-                MessageBox.Show(" Нельзя! :нуну:");
+                MessageBox.Show(" Нельзя!");
             }
-            else { button4.Text = Game(4); who_vin(); }
+            else { button4.Text = game.game(4, this); /*who_vin();*/ }
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
             if (button5.Text == "X" | button5.Text == "O")
             {
-                MessageBox.Show(" Нельзя! :нуну:");
+                MessageBox.Show(" Нельзя!");
             }
-            else { button5.Text = Game(5); who_vin(); }
+            else { button5.Text = game.game(5, this); /*who_vin();*/ }
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
             if (button6.Text == "X" | button6.Text == "O")
             {
-                MessageBox.Show(" Нельзя! :нуну:");
+                MessageBox.Show(" Нельзя!");
             }
-            else { button6.Text = Game(6); who_vin(); }
+            else { button6.Text = game.game(6, this); /*who_vin();*/ }
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
             if (button7.Text == "X" | button7.Text == "O")
             {
-                MessageBox.Show(" Нельзя! :нуну:");
+                MessageBox.Show(" Нельзя!");
             }
-            else { button7.Text = Game(7); who_vin(); }
+            else { button7.Text = game.game(7, this); /*who_vin();*/ }
         }
 
         private void button8_Click(object sender, EventArgs e)
         {
             if (button8.Text == "X" | button8.Text == "O")
             {
-                MessageBox.Show(" Нельзя! :нуну:");
+                MessageBox.Show(" Нельзя!");
             }
-            else { button8.Text = Game(8); who_vin(); }
+            else { button8.Text = game.game(8, this); /*who_vin();*/ }
         }
 
         private void button9_Click(object sender, EventArgs e)
         {
             if (button9.Text == "X" | button9.Text == "O")
             {
-                MessageBox.Show(" Нельзя! :нуну:"); 
+                MessageBox.Show(" Нельзя!"); 
             }
-            else { button9.Text = Game(9); who_vin(); }
+            else { button9.Text = game.game(9, this); /*who_vin();*/ }
         }
-*/
         
         private void Form1_Load(object sender, EventArgs e)
         {
