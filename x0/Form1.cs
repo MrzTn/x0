@@ -205,9 +205,10 @@ namespace WindowsFormsApplication1
 */
         
         private void Form1_Load(object sender, EventArgs e)
-        {            
+        {
             game.refresh(this);
             label3.Text = "X : O\n" + game.Xvin.ToString() + " : " + game.Ovin.ToString();
+            //коммент
         }
     }
 }
