@@ -1,0 +1,17 @@
+C:\Users\Администратор\Documents\Visual Studio 2010\Projects\x0\x0\bin\Debug\x0.exe
+C:\Users\Администратор\Documents\Visual Studio 2010\Projects\x0\x0\bin\Debug\x0.pdb
+C:\Users\Администратор\Documents\Visual Studio 2010\Projects\x0\x0\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Администратор\Documents\Visual Studio 2010\Projects\x0\x0\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\Администратор\Documents\Visual Studio 2010\Projects\x0\x0\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Администратор\Documents\Visual Studio 2010\Projects\x0\x0\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Администратор\Documents\Visual Studio 2010\Projects\x0\x0\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Администратор\Documents\Visual Studio 2010\Projects\x0\x0\obj\x86\Debug\x0.exe
+C:\Users\Администратор\Documents\Visual Studio 2010\Projects\x0\x0\obj\x86\Debug\x0.pdb
+C:\Users\Tanya\Desktop\x0\x0\x0\obj\x86\Debug\x0.exe
+C:\Users\Tanya\Desktop\x0\x0\x0\obj\x86\Debug\x0.pdb
+C:\Users\Tanya\Desktop\x0\x0\x0\bin\Debug\x0.exe
+C:\Users\Tanya\Desktop\x0\x0\x0\bin\Debug\x0.pdb
+C:\Users\Tanya\Desktop\x0\x0\x0\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\Tanya\Desktop\x0\x0\x0\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Tanya\Desktop\x0\x0\x0\obj\x86\Debug\x0.csproj.GenerateResource.Cache
+C:\Users\Tanya\Desktop\x0\x0\x0\obj\x86\Debug\x0.csprojResolveAssemblyReference.cache
