@@ -47,5 +47,16 @@ namespace TestProject1
                 obj.who_vin(form);
             }
         }
+        public void TestMethod4()
+        {
+            Form1 form = new Form1();
+            Form1.Game obj = new Form1.Game();
+            obj.refresh(form);
+            for (int i = 1; i < 10; i++)
+            {
+                obj.game(i, form);
+                obj.who_vin(form);
+            }
+        }
     }
 }
